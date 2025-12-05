@@ -179,3 +179,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Environments (ACTUALIZADO PARA TU PROYECTO)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+grupo8/  
+grupo8
+
+# --- ESPECIFICO DEL PROYECTO ---
+
+# Si tus datos son públicos y ligeros (<50MB), déjalos comentados (con #).
+# Si son privados o muy pesados, quita el # de abajo:
+# data/
+
+# Los modelos de Deep Learning pueden ser muy pesados.
+# Si tus .h5 pesan más de 100MB, GitHub dará error.
+# Si eso pasa, descomenta la siguiente línea:
+# models/*.h5
+
+# Archivos de sistema operativo (Mac/Windows) que siempre molestan
+.DS_Store
+Thumbs.db
